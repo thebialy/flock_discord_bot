@@ -11,6 +11,7 @@ client.on('message', msg => {
     if (msg.content == "I love Mandolorian!") {
         msg.react("❤️")
     }
+});
 
 client.on('message', msg => {
     if (msg.content === 'hello') {
