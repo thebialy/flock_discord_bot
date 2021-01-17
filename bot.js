@@ -8,6 +8,11 @@ client.on('ready', () => {
 })
 
 client.on('message', msg => {
+    if (msg.content == "I love Mandolorian!") {
+        msg.react("❤️")
+    }
+
+client.on('message', msg => {
     if (msg.content === 'hello') {
         msg.reply('Hello how are you?');
     }
