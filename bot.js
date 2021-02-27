@@ -30,4 +30,10 @@ client.on('message', msg => {
     }
 });
 
+client.on('message', msg => {
+    if (msg.content === 'ah he') {
+        msg.reply('ah smee');
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
