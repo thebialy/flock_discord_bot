@@ -8,7 +8,7 @@ client.on('ready', () => {
 })
 
 client.on('message', msg => {
-    if (msg.content == "I love Mandolorian!") {
+    if (msg.content == "I love The Big Lebowski") {
         msg.react("❤️")
     }
 });
