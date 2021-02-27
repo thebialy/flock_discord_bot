@@ -12,6 +12,11 @@ client.on('message', msg => {
         msg.react("❤️")
     }
 });
+client.on('message', msg => {
+    if (msg.content == "I love I Heart Huckabees") {
+        msg.react("❤️")
+    }
+});
 
 client.on('message', msg => {
     if (msg.content === 'hello') {
