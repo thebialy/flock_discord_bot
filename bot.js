@@ -17,10 +17,14 @@ client.on('message', msg => {
         msg.react("❤️")
     }
 });
-
 client.on('message', msg => {
     if (msg.content === 'hello') {
         msg.reply('Hello how are you?');
+    }
+});
+client.on('message', msg => {
+    if (msg.content === 'roll damn') {
+        msg.reply('tide');
     }
 });
 
