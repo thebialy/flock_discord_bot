@@ -4,7 +4,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 client.on('ready', () => {
-    console.log('Bot is up and running. Go catch it!');
+    console.log('Bot is up and running!');
 })
 
 client.on('message', msg => {
