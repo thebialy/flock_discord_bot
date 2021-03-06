@@ -36,6 +36,7 @@ client.on('message', msg => {
     }
 });
 
+// rythm bot functionality
 client.on('message', msg => {
     if (msg.content === '!play') {
         msg.reply('!clean');
